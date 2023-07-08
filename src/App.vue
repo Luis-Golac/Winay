@@ -1,6 +1,6 @@
 <template>
-    <app-header /> <!-- Aquí se insertará el componente de encabezado -->
-    <router-view :key="$route.path" /> <!-- Aquí se mostrará el contenido de la ruta actual -->
+    <app-header />
+    <router-view :key="$route.path" /> 
 </template>
 
 <script>
@@ -8,9 +8,9 @@ import AppHeader from './components/AppHeader.vue';
 
 export default {
   components: {
-    AppHeader, // Registra el componente de encabezado para su uso
+    AppHeader, 
   },
-  // Otros component options si es necesario
+
 }
 </script>
 

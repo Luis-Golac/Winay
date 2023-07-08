@@ -23,7 +23,6 @@
 <script>
 export default {
   name: 'Header_'
-  // Componente de encabezado
 }
 </script>
 

@@ -59,10 +59,6 @@ export default {
         deformedShape1.style.height = `${deformedShape1Height}px`;
       }
 
-      // Adjust deformed-shape2 size
-      // Similar adjustments for other deformed-shapes
-
-      // Adjust title font size
       const title = this.$refs.titleRef;
       if (title) {
         const titleFontSize = containerWidth * 0.065;
@@ -196,7 +192,7 @@ export default {
   opacity: 1;
   transition: opacity 0.5s ease;
   font-family: 'Oswald', sans-serif;
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  white-space: nowrap; 
   position: absolute;
   top: 0.5%;
 }
@@ -211,10 +207,10 @@ export default {
 }
 
 .circle1 {
-  width: 600px; /* Tamaño del contenedor circular */
+  width: 600px;
   height: 600px;
-  border-radius: 50%; /* Hace que el contenedor sea circular */
-  background-color: #ccc; /* Color de fondo del contenedor */
+  border-radius: 50%; 
+  background-color: #ccc; 
   justify-content: center;
   position: absolute;
   align-items: center;
@@ -223,10 +219,10 @@ export default {
 }
 
 .circle {
-  width: 600px; /* Tamaño del contenedor circular */
+  width: 600px;
   height: 600px;
-  border-radius: 50%; /* Hace que el contenedor sea circular */
-  background-color: #ccc; /* Color de fondo del contenedor */
+  border-radius: 50%; 
+  background-color: #ccc; 
   justify-content: center;
   position: absolute;
   align-items: center;
@@ -238,7 +234,7 @@ export default {
   left: 70%;
   max-width: 100%;
   max-height: 100%;
-  border-radius: 50%; /* Hace que la imagen sea circular */
+  border-radius: 50%; 
 }
 </style>
 

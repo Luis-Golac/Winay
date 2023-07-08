@@ -107,7 +107,7 @@ export default {
 .about-item {
   background-color: #f4f4f4;
   border-image: linear-gradient(to right, #00739a, #00afe1) 1;
-  border-radius: 60px; /* Aumenta este valor para esquinas más redondeadas */
+  border-radius: 60px;
   border: 4px solid #00739a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 60px;
@@ -121,7 +121,7 @@ export default {
 .about-item-ods {
   background-color: #f4f4f4;
   border-image: linear-gradient(to right, #00739a, #00afe1) 1;
-  border-radius: 60px; /* Aumenta este valor para esquinas más redondeadas */
+  border-radius: 60px;
   border: 4px solid #00739a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -211,8 +211,8 @@ margin-right: 45px;
 
 .diamond {
   position: relative;
-  width: 141px; /* 200 / sqrt(2) */
-  height: 141px; /* 200 / sqrt(2) */
+  width: 141px;
+  height: 141px;
   transform: rotate(45deg);
 }
 

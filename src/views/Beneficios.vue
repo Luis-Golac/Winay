@@ -80,7 +80,7 @@ export default {
 .about-item {
   background-color: #f4f4f4;
   border-image: linear-gradient(to right, #08c9ff, #eafdf5) 1;
-  border-radius: 60px; /* Aumenta este valor para esquinas más redondeadas */
+  border-radius: 60px; 
   border: 4px solid #08c9ff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 60px;
@@ -131,8 +131,8 @@ margin-right: 45px;
   position: absolute;
   top: 660px;
   left: 60%;
-  width: 450px; /* 200 / sqrt(2) */
-  height: 450px; /* 200 / sqrt(2) */
+  width: 450px; 
+  height: 450px;
   transform: rotate(45deg);
 }
 
@@ -178,7 +178,7 @@ margin-right: 45px;
 .about-item1 {
   background-color: #f4f4f4;
   border-image: linear-gradient(to right, #08c9ff, #eafdf5) 1;
-  border-radius: 60px; /* Aumenta este valor para esquinas más redondeadas */
+  border-radius: 60px; 
   border: 4px solid #08c9ff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 60px;
@@ -239,8 +239,8 @@ margin-right: 45px;
   position: absolute;
   top: 1350px;
   left: 20%;
-  width: 450px; /* 200 / sqrt(2) */
-  height: 450px; /* 200 / sqrt(2) */
+  width: 450px;
+  height: 450px;
   transform: rotate(45deg);
 }
 .diamond1 h3, .diamond1 p {
