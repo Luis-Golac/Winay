@@ -32,6 +32,15 @@
       </div>
       <div class="deformed-shape4">
       </div>
+
+      <div class="deformed-shape5">
+      </div>
+      <div class="deformed-shape6">
+      </div>
+      <div class="deformed-shape7">
+      </div>
+      <div class="deformed-shape8">
+      </div>
     </div>
 
 
@@ -280,7 +289,7 @@ margin-right: 45px;
 .deformed-shape1 {
   width: 19.4%;
   height: 85.2%;
-  background-color: #3b657a;
+  background-color: #17bebb;
   position: absolute;
   top: 0;
   left: 40;
@@ -302,7 +311,7 @@ margin-right: 45px;
 .deformed-shape3 {
   width: 50%;
   height: 89.2%;
-  background-color: #833333;
+  background-color: #EF3E36;
   position: absolute;
   top: 0;
   left: 100;
@@ -313,7 +322,7 @@ margin-right: 45px;
 .deformed-shape4 {
   width: 50%;
   height: 100%;
-  background-color: #302303;
+  background-color: #fcc40c;
   position: absolute;
   top: 0;
   left: 40;
@@ -321,5 +330,48 @@ margin-right: 45px;
   clip-path: polygon(94% 86.5%, 94% 40.8%, 41% 86.7%); 
 }
 
+.deformed-shape5 {
+  width: 50%;
+  height: 54.5%;
+  background-color: #17bebb;
+  position: absolute;
+  top: 1;
+  left: 0;
+  opacity: 1;
+  clip-path: polygon(98.5% 81.5%, 98.5% 23.8%, 61.8% 81.5%); 
+}
+
+.deformed-shape6 {
+  width: 50%;
+  height: 54.5%;
+  background-color: #fcc40c;
+  position: absolute;
+  top: 1;
+  left: 0;
+  opacity: 1;
+  clip-path: polygon(55.6% 81.5%, 10.8% 7.8%, 10.8% 81.5%); 
+}
+
+.deformed-shape7 {
+  width: 50%;
+  height: 50.5%;
+  background-color: #14CC60;
+  position: absolute;
+  top: 0.1;
+  left: 0;
+  opacity: 1;
+  clip-path: polygon(55.6% 0%, 10.8% 0%, 10.8% 76.5%); 
+}
+
+.deformed-shape8 {
+  width: 50%;
+  height: 50.5%;
+  background-color: #EF3E36;
+  position: absolute;
+  top: 0.1;
+  left: 0;
+  opacity: 1;
+  clip-path: polygon(98.5% 0%, 61.8% 0%, 98.5% 64.5%);
+}
 </style>
 

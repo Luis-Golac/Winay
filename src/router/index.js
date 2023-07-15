@@ -19,12 +19,6 @@ const routes = [
     component: ()=>
       import("../views/Beneficios.vue"),
   },
-  {
-    path: '/donaciones',
-    name: 'Donaciones',
-    component: ()=>
-      import("../views/prueba1.vue"),
-  },
 
   // ... otras rutas
 ];
